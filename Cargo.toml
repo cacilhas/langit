@@ -1,0 +1,12 @@
+[package]
+name = "langit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eyre = "0.6"
+
+[dependencies.lingua]
+version = "1.5"
+default-features = false
+features = ["english", "portuguese", "german", "french"]
